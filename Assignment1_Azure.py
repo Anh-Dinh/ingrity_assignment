@@ -65,8 +65,8 @@ def upload_file_to_adls(storage_account_name, storage_account_key, container_nam
         print(f"An error occurred: {e}")
 
 # Usage
-storage_account_name = "cs1100320017f56d16b"
-storage_account_key = "CHBM+bcZreGcUFqcM74YLScodVvOIRPM60umqumnYEmoyhvRc2RYZ0vnQMpcvb18CbgLZLPM5dRK+AStszCsGw=="
+storage_account_name = ""
+storage_account_key = ""
 container_name = "sample-container"
 local_file_path = "sample_data.csv"
 adls_file_path = "sample_data.csv"
